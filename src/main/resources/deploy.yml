@@ -15,8 +15,8 @@ deploy:
 artifact:
   publish: nexus
   base_url: https://nexus.dwiaribowokj.xyz
-  repository: maven-releases
-  groupId: <com.wiee.usercompany>
-  artifactId: service-registry-v1
+  repository: maven-snapshots
+  groupId: com.registry.service
+  artifactId: registry-v1
   version: latest
   packaging: jar
